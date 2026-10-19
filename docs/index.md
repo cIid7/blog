@@ -20,6 +20,9 @@ features:
     details: 建站、代码和各种捣鼓的过程，踩过的坑都记一笔。
   - title: 💭 随想
     details: 一些不成体系的想法和碎碎念，想到哪写到哪。
+  - title: 🌐 IP 查询
+    details: 查一下当前网络的出口 IP，做个小诊断。
+    link: https://one-ip.wloczlw.tech
 ---
 
 ## 最新文章

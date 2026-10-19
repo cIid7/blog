@@ -18,6 +18,7 @@ export default defineConfig({
         text: '文章',
         items: [
           { text: '文章列表', link: '/posts/' },
+          { text: '當下即是全部', link: '/posts/present-moment' },
           { text: '第一篇：博客开张', link: '/posts/hello' }
         ]
       }

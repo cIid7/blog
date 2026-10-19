@@ -24,4 +24,5 @@ features:
 
 ## 最新文章
 
+- [當下即是全部](/posts/present-moment) <Badge type="danger" text="2026-10-19" />
 - [第一篇：博客开张](/posts/hello) <Badge type="danger" text="2026-10-18" />

@@ -11,7 +11,8 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
-      { text: '文章', link: '/posts/' }
+      { text: '文章', link: '/posts/' },
+      { text: 'IP 查询', link: 'https://one-ip.wloczlw.tech' }
     ],
     sidebar: [
       {

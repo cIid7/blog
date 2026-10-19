@@ -1,9 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  lang: 'zh-CN',
   title: "longwei 的博客",
   description: '记录生活与想法',
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+  ],
   themeConfig: {
+    logo: '/logo.svg',
     nav: [
       { text: '首页', link: '/' },
       { text: '文章', link: '/posts/' }
@@ -18,7 +23,14 @@ export default defineConfig({
       }
     ],
     socialLinks: [],
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'medium'
+      }
+    },
     footer: {
+      message: '用 VitePress 构建 · 部署于 GitHub Pages',
       copyright: 'Copyright © 2026 longwei'
     }
   }
